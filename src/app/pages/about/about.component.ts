@@ -16,7 +16,6 @@ export class AboutComponent {
   constructor(aboutService: AboutService, private projectsService: ProjectsService) {
     this.works = aboutService.getWorks();
     this.education = aboutService.getEducation();
-    this.languages = aboutService.getLanguages();
   }
 
   onClickToggle(event: any): void {

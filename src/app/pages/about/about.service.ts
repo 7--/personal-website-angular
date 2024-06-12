@@ -14,29 +14,11 @@ export class AboutService {
 
   private education: InfoField[] = [
     new InfoField(
-      'Masters in Advanced Videogame Development',
-      'Campus La Salle',
-      'Oct. 2018 - July 2019',
-      'https://www.salleurl.edu/ca/estudis/master-en-desenvolupament-avancat-de-videojocs'
-    ),
-    new InfoField(
-      'Multimedia Engineering Degree',
-      'Campus La Salle',
-      'Sept. 2013 - June 2018',
-      'https://www.salleurl.edu/ca/estudis/grau-en-enginyeria-multimedia-mencio-en-videojocs'
-    ),
-    new InfoField(
-      'Sound Technician',
-      'EMAV',
-      'Sept. 2011 - June 2013',
-      'https://www.emav.com/oferta-educativa/cicles-formatius-de-grau-superior/so/'
+      'Bachelors of Science in Computer Science',
+      'Rutgers, The State University of New Jersey - New Brunswick Campus',
+      'Sep 2013 - Jan 2016',
+      'https://www.cs.rutgers.edu/'
     )
-  ];
-
-  private languages: InfoField[] = [
-    new InfoField('Catalan', 'Bilingual or native competence', ' ', ' '),
-    new InfoField('Spanish', 'Bilingual or native competence', ' ', ' '),
-    new InfoField('English', 'Profesional competence', ' ', ' ')
   ];
 
   getEducation(): InfoField[] {
@@ -47,7 +29,4 @@ export class AboutService {
     return this.works;
   }
 
-  getLanguages(): InfoField[] {
-    return this.languages;
-  }
 }

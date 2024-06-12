@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  titleName = 'David';
+  titleName = 'Phil';
 }
