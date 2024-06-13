@@ -1,0 +1,8 @@
+{
+    "root": "dist/personal-website-angular",
+    "clean_urls": false,
+    "routes": {
+      "/**": "index.html"
+    }
+  }
+  
