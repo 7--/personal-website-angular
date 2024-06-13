@@ -1,11 +1,12 @@
 {
-  "name": "dgm-website-angular",
+  "name": "personal-website-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
+    "postinstall": "ng build --configuration production",
     "test": "ng test",
     "test:coverage": "ng test --code-coverage --watch=false --browsers=ChromeHeadless",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
