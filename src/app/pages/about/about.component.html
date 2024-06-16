@@ -41,7 +41,10 @@
           <tbody>
             <tr *ngFor="let e of education">
               <td>
-                <a class="light-blue-text text-lighten-5 light-blue darken-3" href="{{ e.href }}" target="_blank">{{ e.field_1 }}</a>
+                <p class="light-blue-text text-lighten-5 light-blue darken-3" target="_blank">{{ e.field_1 }}</p>
+              </td>
+              <td>
+                <a class="light-blue-text text-lighten-5 light-blue darken-3" href="{{ e.href }}" target="_blank">{{ e.field_2 }}</a>
               </td>
               <td class="right-align">{{ e.field_3 }}</td>
             </tr>
@@ -58,9 +61,8 @@
           <tbody>
             <tr *ngFor="let work of works">
               <td>
-                <a class="light-blue-text text-lighten-5 light-blue darken-3" href="{{ work.href }}" target="_blank"
-                  >{{ work.field_1 }} @ {{ work.field_2 }}</a
-                >
+                <p class="light-blue-text text-lighten-5 light-blue darken-3" target="_blank"
+                  >{{ work.field_1 }} @ {{ work.field_2 }}</p>
               </td>
               <td class="right-align">{{ work.field_3 }}</td>
             </tr>

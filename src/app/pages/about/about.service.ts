@@ -4,19 +4,16 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class AboutService {
   private works: InfoField[] = [
-    new InfoField('Junior Engineer (SA)', 'Everis', 'Oct. 2019 - Present', 'https://www.everis.com/spain/es/'),
-    new InfoField('Unity Programmer internship', 'Everis', 'Feb. 2019 - Jul. 2019', 'https://www.everis.com/spain/es/'),
-    new InfoField('Multimedia Programmer', 'Rücker Lypsa', 'Oct. 2017 - Dec. 2017', 'https://www.rueckerlypsa.es/'),
-    new InfoField('Helpdesk IT', 'Wanup', 'July 2017 - Sept. 2017', 'https://www.rueckerlypsa.es/'),
-    new InfoField('Animation internship', 'Campus La Salle', 'Sept. 2016 - May 2017', 'https://www.salleurl.edu/ca'),
-    new InfoField('Sound Technician', 'Casa Orlandai', 'Sept. 2012 - May 2013', 'https://casaorlandai.cat')
+    new InfoField('Technical Lead - Full Stack Java Developer', 'Tata Consultancy Services, Citi Bank & MetLife', 'Aug 2020 - Present', null),
+    new InfoField('Full Stack Java Developer', 'Mphasis, Chase Wilmington DE', 'September 2018 - March 2020', null),
+    new InfoField('Junior C# and Java developer', 'Revature, Walmart ISD Bentonville AR & Revature Reston VA', ' July 2016 - April 2018', null),
   ];
 
   private education: InfoField[] = [
     new InfoField(
       'Bachelors of Science in Computer Science',
       'Rutgers, The State University of New Jersey - New Brunswick Campus',
-      'Sep 2013 - Jan 2016',
+      'Jan 2016',
       'https://www.cs.rutgers.edu/'
     )
   ];
