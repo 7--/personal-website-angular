@@ -10,6 +10,7 @@ export class ContactComponent {
     new Contact('/philrego', 'https://www.linkedin.com/in/philrego/', 'linkedin', 'linkedin'),
     new Contact('philip.rego.career@gmail.com', 'mailto:philip.rego.career@gmail.com', 'email', 'envelope'),
     new Contact('/7--', 'https://github.com/7--', 'github', 'github'),
+    new Contact('philip-rego', 'https://stackoverflow.com/users/1308453/philip-rego', 'stackoverflow', 'stack-overflow'),
     new Contact('@philrego', 'https://twitter.com/philrego', 'twitter', 'twitter')
   ];
 }

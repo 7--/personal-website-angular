@@ -13,7 +13,16 @@ export class ProjectsComponent implements OnInit {
 
   public ngOnInit() {
     this.projectsService.getApiProjects().subscribe(
-      (res) => (this.githubProjects = res),
+      (res) => {
+        const manuallyAddedProject = {
+          name: 'Coin Advice',
+          html_url: 'https://www.coinadvice.info',
+          language: 'Java 21, Spring Boot, Thymeleaf',
+          description: 'Website giving practical crypto advice.'
+        };
+        this.githubProjects = res;
+        this.githubProjects.unshift(manuallyAddedProject);
+      },
       (err) => console.error(err)
     );
   }
